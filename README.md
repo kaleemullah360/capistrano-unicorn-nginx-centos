@@ -1,5 +1,15 @@
 # Capistrano::UnicornNginx
 
+I've just cloned it from developers github repository.
+What problem it solve ?
+the current relaes of capsitrano not supports centos.
+this version with small changes supports centos deployment. but it won't work for ubuntu (I guess).
+
+the changes are integrated from the following url.
+
+[capistrano-plugins](https://github.com/capistrano-plugins/capistrano-unicorn-nginx/compare/master...erwald:38f9e9c)
+
+
 Capistrano tasks for automatic and sensible unicorn + nginx configuraion.
 
 Goals of this plugin:
